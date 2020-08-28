@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9cb797e992af6234ab27529666dbee75/jetified-rxbinding-appcompat-v7-0.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9cb797e992af6234ab27529666dbee75/jetified-rxbinding-appcompat-v7-0.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9cb797e992af6234ab27529666dbee75/jetified-rxbinding-appcompat-v7-0.4.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.rxbinding/rxbinding-appcompat-v7/0.4.0/86e97ab8cf461771fca8b0a1eb38bfe2d1353978/rxbinding-appcompat-v7-0.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.rxbinding/rxbinding-appcompat-v7/0.4.0/d28a11f8b17a7f64cc410e5f02207d81f0234f69/rxbinding-appcompat-v7-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

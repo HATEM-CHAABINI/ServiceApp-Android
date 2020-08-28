@@ -1,0 +1,327 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hatemchaabini.serviceapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:7:5-80
+13-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:8:5-81
+14-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:9:5-76
+15-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:10:5-71
+16-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:10:22-68
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:11:5-80
+17-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:11:22-77
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:5-68
+18-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:5-110
+19-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:22-107
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:22-79
+21
+22    <application
+22-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:13:5-57:19
+23        android:name="androidx.multidex.MultiDexApplication"
+24        android:allowBackup="true"
+24-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:14:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/478b79604eaaf934858ce3739dce1708/core-1.1.0/AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:15:9-43
+28        android:label="@string/app_name"
+28-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:16:9-41
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:17:9-69
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:18:9-54
+31        android:supportsRtl="true"
+31-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:19:9-35
+32        android:theme="@style/AppTheme" >
+32-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:20:9-40
+33        <activity android:name="com.hatemchaabini.serviceapp.OffreetServiceValideretRefuserAdapterActivityDemande" />
+33-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:21:9-127
+33-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:21:19-115
+34        <activity android:name="com.hatemchaabini.serviceapp.FragmenOffreetServiceValideretRefuserDemande" />
+34-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:22:9-110
+34-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:22:19-107
+35        <activity android:name="com.hatemchaabini.serviceapp.OffreetServiceValideretRefuserAdapterActivity" />
+35-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:23:9-111
+35-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:23:19-108
+36        <activity android:name="com.hatemchaabini.serviceapp.FragmenOffreetServiceValideretRefuser" />
+36-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:24:9-103
+36-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:24:19-100
+37        <activity android:name="com.hatemchaabini.serviceapp.FragmenProfile" />
+37-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:25:9-80
+37-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:25:19-77
+38        <activity android:name="com.hatemchaabini.serviceapp.AdapterCom" />
+38-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:26:9-76
+38-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:26:19-73
+39
+40        <service
+40-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:28:9-35:19
+41            android:name="com.hatemchaabini.serviceapp.FcmMessagingService"
+41-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:29:13-76
+42            android:enabled="true"
+42-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:30:13-35
+43            android:exported="true" >
+43-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:31:13-36
+44            <intent-filter>
+44-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:32:13-34:29
+45                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+45-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:33:17-78
+45-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:33:25-75
+46            </intent-filter>
+47        </service>
+48
+49        <activity android:name="com.hatemchaabini.serviceapp.Chat.MessageActivity" />
+49-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:37:9-86
+49-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:37:19-83
+50        <activity android:name="com.hatemchaabini.serviceapp.VideoTuto" />
+50-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:38:9-75
+50-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:38:19-72
+51        <activity android:name="com.hatemchaabini.serviceapp.Chat.MaineActivity" />
+51-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:39:9-84
+51-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:39:19-81
+52        <activity android:name="com.hatemchaabini.serviceapp.DetailDemandeActivity" />
+52-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:40:9-87
+52-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:40:19-84
+53        <activity android:name="com.hatemchaabini.serviceapp.MesDemandeServicesActivity" />
+53-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:41:9-92
+53-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:41:19-89
+54        <activity android:name="com.hatemchaabini.serviceapp.SplashActivity" >
+54-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:42:9-48:20
+54-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:42:19-77
+55            <intent-filter>
+55-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:43:13-47:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:44:17-69
+56-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:44:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:46:17-77
+58-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:46:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity android:name="com.hatemchaabini.serviceapp.DetailoffreActivity" />
+61-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:49:9-85
+61-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:49:19-82
+62        <activity android:name="com.hatemchaabini.serviceapp.OffreServActivity" />
+62-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:50:9-83
+62-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:50:19-80
+63        <activity android:name="com.hatemchaabini.serviceapp.DetailserviceActivity" />
+63-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:51:9-87
+63-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:51:19-84
+64        <activity android:name="com.hatemchaabini.serviceapp.ServicesAdapterActivity" />
+64-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:52:9-89
+64-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:52:19-86
+65        <activity android:name="com.hatemchaabini.serviceapp.ServicesFragmentActivity" />
+65-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:53:9-90
+65-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:53:19-87
+66        <activity android:name="com.hatemchaabini.serviceapp.singup" />
+66-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:54:9-72
+66-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:54:19-69
+67        <activity android:name="com.hatemchaabini.serviceapp.MainActivity" />
+67-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:55:9-78
+67-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:55:19-75
+68        <activity android:name="com.hatemchaabini.serviceapp.signin" />
+68-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:56:9-72
+68-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:56:19-69
+69        <activity
+69-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:24:9-31:50
+70            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+70-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:25:13-85
+71            android:excludeFromRecents="true"
+71-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:26:13-46
+72            android:exported="true"
+72-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:27:13-36
+73            android:launchMode="singleTask"
+73-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:28:13-44
+74            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+74-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:29:13-102
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:30:13-72
+76
+77        <service
+77-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:33:9-39:19
+78            android:name="com.google.firebase.components.ComponentDiscoveryService"
+78-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:34:13-84
+79            android:exported="false" >
+79-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:35:13-37
+80            <meta-data
+80-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:36:13-38:85
+81                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+81-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:37:17-109
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:38:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:28:13-30:85
+84                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+84-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:29:17-139
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:30:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+87                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+87-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+89        </service>
+90
+91        <provider
+91-->[com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+92            android:name="com.squareup.picasso.PicassoProvider"
+92-->[com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+93            android:authorities="com.hatemchaabini.serviceapp.com.squareup.picasso"
+93-->[com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+94            android:exported="false" />
+94-->[com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+95        <!--
+96             FirebaseMessagingService performs security checks at runtime,
+97             no need for explicit permissions despite exported="true"
+98        -->
+99        <service
+99-->[com.google.firebase:firebase-messaging:17.3.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4a40a71f676c69cd4c32009cb5b0542d/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+100            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+100-->[com.google.firebase:firebase-messaging:17.3.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4a40a71f676c69cd4c32009cb5b0542d/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+101            android:exported="true" >
+101-->[com.google.firebase:firebase-messaging:17.3.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4a40a71f676c69cd4c32009cb5b0542d/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+102            <intent-filter android:priority="-500" >
+102-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:32:13-34:29
+103                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+103-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:33:17-78
+103-->/Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:33:25-75
+104            </intent-filter>
+105        </service>
+106
+107        <receiver
+107-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:29:9-33:20
+108            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+108-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:30:13-85
+109            android:enabled="true"
+109-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:31:13-35
+110            android:exported="false" >
+110-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:32:13-37
+111        </receiver>
+112        <receiver
+112-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:34:9-42:20
+113            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+113-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:35:13-100
+114            android:enabled="true"
+114-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:36:13-35
+115            android:exported="true"
+115-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:37:13-36
+116            android:permission="android.permission.INSTALL_PACKAGES" >
+116-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:38:13-69
+117            <intent-filter>
+117-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:39:13-41:29
+118                <action android:name="com.android.vending.INSTALL_REFERRER" />
+118-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:17-79
+118-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:25-76
+119            </intent-filter>
+120        </receiver>
+121
+122        <service
+122-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:44:9-47:40
+123            android:name="com.google.android.gms.measurement.AppMeasurementService"
+123-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:45:13-84
+124            android:enabled="true"
+124-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:46:13-35
+125            android:exported="false" />
+125-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:47:13-37
+126        <service
+126-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:48:9-52:72
+127            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+127-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:49:13-87
+128            android:enabled="true"
+128-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:50:13-35
+129            android:exported="false"
+129-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:51:13-37
+130            android:permission="android.permission.BIND_JOB_SERVICE" />
+130-->[com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:52:13-69
+131
+132        <receiver
+132-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
+133            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+133-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
+134            android:exported="true"
+134-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
+135            android:permission="com.google.android.c2dm.permission.SEND" >
+135-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
+136            <intent-filter>
+136-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+137                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+137-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:17-81
+137-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:25-78
+138            </intent-filter>
+139        </receiver>
+140        <!--
+141             FirebaseInstanceIdService performs security checks at runtime,
+142             no need for explicit permissions despite exported="true"
+143        -->
+144        <service
+144-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+145            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+145-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+146            android:exported="true" >
+146-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+147            <intent-filter android:priority="-500" >
+147-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:13-55:29
+147-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:28-51
+148                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+148-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:17-80
+148-->[com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:25-77
+149            </intent-filter>
+150        </service>
+151
+152        <activity
+152-->[com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+153            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+153-->[com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+156
+157        <provider
+157-->[com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+158            android:name="com.google.firebase.provider.FirebaseInitProvider"
+158-->[com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+159            android:authorities="com.hatemchaabini.serviceapp.firebaseinitprovider"
+159-->[com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+160            android:exported="false"
+160-->[com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+161            android:initOrder="100" />
+161-->[com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+162
+163        <meta-data
+163-->[com.google.android.gms:play-services-basement:16.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0fc20dd901acba4dd687a4c3a2f04800/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+164            android:name="com.google.android.gms.version"
+164-->[com.google.android.gms:play-services-basement:16.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0fc20dd901acba4dd687a4c3a2f04800/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+165            android:value="@integer/google_play_services_version" />
+165-->[com.google.android.gms:play-services-basement:16.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0fc20dd901acba4dd687a4c3a2f04800/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+166    </application>
+167
+168</manifest>

@@ -1,0 +1,665 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:2:1-59:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/43d10548910a2686de65fd51b2206c0d/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.4.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/2b89448b9d7fc2eb859f6268d46047b7/jetified-rxbinding-appcompat-v7-0.4.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/eabc70798f75b18d74787cd7023bca8c/jetified-library-2.1.4/AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.javiersantos:MaterialStyledDialogs:2.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/1b889648bd9e87dd3301fc02503ca967/jetified-MaterialStyledDialogs-2.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.dinukapj:MaterialSearchBar:0.7.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/cf43635a488b36e7aaa4859a791dc769/jetified-MaterialSearchBar-0.7.2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/419ea00e087ae1e3c48f939f6626143f/jetified-core-0.9.0.2/AndroidManifest.xml:2:1-15:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/61de66c28f2cdb514cccfb933dd607eb/jetified-library-1.1.7/AndroidManifest.xml:6:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/8b7353a4da394401f2770946eabec9bd/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/e88b13ae8ecbb63da81ec85463301b9c/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/feb9a684472092d4e7bccd26ee916f6c/jetified-firebase-database-16.0.4/AndroidManifest.xml:15:1-25:12
+MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d6cf33a57c61ba252775ff8ae2d37fe4/circleimageview-3.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/48151eebb6fa866db8aa638f60cf7059/glide-4.10.0/AndroidManifest.xml:2:1-12:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d7bd033bbfecfefcd37e6d7c2723914f/rxandroid-2.0.2/AndroidManifest.xml:15:1-21:12
+MERGED from [com.jakewharton.rxbinding:rxbinding-support-v4:0.4.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ff5c0047b7dcb15da34783b19f64fd4b/jetified-rxbinding-support-v4-0.4.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/72e72f82618c640df994aa91b6c9718b/jetified-rxbinding-0.4.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4a40a71f676c69cd4c32009cb5b0542d/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/19dcf849995c50e8bbd936f73c87cbc3/jetified-firebase-storage-16.0.4/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/908516facc2832c5de1bd9f8e4f02639/play-services-flags-16.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/46ba23e7a9cad42e717409643ee508d5/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/1c9d5f62b8402bcffa9bd0e20b4c5eb1/firebase-core-16.0.4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ff748d8e81b63e287a29cdbec94f698e/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/695fc1736fb65cf6e73c320a963786d8/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fb0b02561e40ff540ef172f1fbbe6b05/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/3c929f0c885367d250e8fbf576aa3f21/firebase-database-collection-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/907e5ea94504813ccdfa74810321c369/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/cca8273c8affda44cc4ba1667c88c0a3/jetified-play-services-stats-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/20c1bb4c6e0f639a9ae8271a99ce3879/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0fc20dd901acba4dd687a4c3a2f04800/jetified-play-services-basement-16.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fc8e660555fcd619975fc3f54e7b6732/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/81d834b1726d83edf002a7495855434a/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d9825d76f6bbee29e3578706a3ba71a2/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ef2b9acfed30db7d42005e1e08b46c79/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/903628750a551479d07974af9ddb1514/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/506ff032f2e3a2422899c5a2a3d9de51/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/6effe2cbf16174b668e3e1d0cfddf644/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/b71106a2dbab772943f41fdb129a6c36/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/f1c6c38deefe084ebb2f0f3b9ed4b2fe/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fc89f4a1c9db1f9f645452bfbb4cd681/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/1428b5f834224b054b3655b7bb9f4141/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/a8c2bb309b0f0e205d5df49a5c8f0224/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ea195e7a4deac63f8932aeb483676170/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/33f3f4591626067cc73772904b9eb738/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/3e16f019840cc70306750a8dc25d7f2e/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fa01b882334f7262ea8e3e7268311095/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0916f73c87a1ba2271fe392cf50cdbd5/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/3c570a0a75f7bdf20ec22b30af040369/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/f4af7f1a3c26c4b61981ff2f9af835ae/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/a1079c7fbe6a9a0a1066925b6507eb74/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/478b79604eaaf934858ce3739dce1708/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/a5cc52281db0c619acb263f3ec9583e2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/69af1b7627f0e3570ff7ab5fa594facc/gifdecoder-4.10.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9d181ea93f766b111b5938a44e6e4827/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9c865c57a8ab83eac8e7c02e9f838480/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/6352da2278f4887fa4506d4f94107bca/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d5c3ac55f54e7be18a5143c57b0a7ada/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/197553ab9f2fbb988661865532230777/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/b0258761e09ba69bc3c7bc9f6c71d3b2/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ff12cc281f87118c6dbeead31942afb5/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c08fbd2ff03eaf1eb73b66b76b15a082/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ede779bc2682400490f54d1fd5fcec7d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/79c1d5c82fe746b1739cbdd05686da02/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/7eeeb2910d1096ef30c55533f294f81f/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/8a422b90bfe2308ee62c0eaef9ccdad3/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/b9053f481f6d09d6b0325c41025a2cd9/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex:rxandroid:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/5e4a119a81b9bbc8a0ed5bfb89e4b4ac/rxandroid-1.1.0/AndroidManifest.xml:15:1-21:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c2d4cd89f1ebfc3fe58e14097bcaea17/play-services-measurement-base-16.0.3/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:2:1-59:12
+	package
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/feb9a684472092d4e7bccd26ee916f6c/jetified-firebase-database-16.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/feb9a684472092d4e7bccd26ee916f6c/jetified-firebase-database-16.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/19dcf849995c50e8bbd936f73c87cbc3/jetified-firebase-storage-16.0.4/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/19dcf849995c50e8bbd936f73c87cbc3/jetified-firebase-storage-16.0.4/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/feb9a684472092d4e7bccd26ee916f6c/jetified-firebase-database-16.0.4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/feb9a684472092d4e7bccd26ee916f6c/jetified-firebase-database-16.0.4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/19dcf849995c50e8bbd936f73c87cbc3/jetified-firebase-storage-16.0.4/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/19dcf849995c50e8bbd936f73c87cbc3/jetified-firebase-storage-16.0.4/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:10:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:11:22-77
+application
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:13:5-57:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/43d10548910a2686de65fd51b2206c0d/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/43d10548910a2686de65fd51b2206c0d/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.dinukapj:MaterialSearchBar:0.7.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/cf43635a488b36e7aaa4859a791dc769/jetified-MaterialSearchBar-0.7.2/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.dinukapj:MaterialSearchBar:0.7.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/cf43635a488b36e7aaa4859a791dc769/jetified-MaterialSearchBar-0.7.2/AndroidManifest.xml:11:5-15:19
+MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/419ea00e087ae1e3c48f939f6626143f/jetified-core-0.9.0.2/AndroidManifest.xml:13:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/419ea00e087ae1e3c48f939f6626143f/jetified-core-0.9.0.2/AndroidManifest.xml:13:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/e88b13ae8ecbb63da81ec85463301b9c/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/e88b13ae8ecbb63da81ec85463301b9c/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:23:5-40:19
+MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d6cf33a57c61ba252775ff8ae2d37fe4/circleimageview-3.0.1/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d6cf33a57c61ba252775ff8ae2d37fe4/circleimageview-3.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/48151eebb6fa866db8aa638f60cf7059/glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/48151eebb6fa866db8aa638f60cf7059/glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4a40a71f676c69cd4c32009cb5b0542d/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4a40a71f676c69cd4c32009cb5b0542d/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/46ba23e7a9cad42e717409643ee508d5/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/46ba23e7a9cad42e717409643ee508d5/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/1c9d5f62b8402bcffa9bd0e20b4c5eb1/firebase-core-16.0.4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/1c9d5f62b8402bcffa9bd0e20b4c5eb1/firebase-core-16.0.4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ff748d8e81b63e287a29cdbec94f698e/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ff748d8e81b63e287a29cdbec94f698e/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/695fc1736fb65cf6e73c320a963786d8/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/695fc1736fb65cf6e73c320a963786d8/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fb0b02561e40ff540ef172f1fbbe6b05/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fb0b02561e40ff540ef172f1fbbe6b05/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/907e5ea94504813ccdfa74810321c369/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/907e5ea94504813ccdfa74810321c369/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/cca8273c8affda44cc4ba1667c88c0a3/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/cca8273c8affda44cc4ba1667c88c0a3/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/20c1bb4c6e0f639a9ae8271a99ce3879/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/20c1bb4c6e0f639a9ae8271a99ce3879/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0fc20dd901acba4dd687a4c3a2f04800/jetified-play-services-basement-16.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0fc20dd901acba4dd687a4c3a2f04800/jetified-play-services-basement-16.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/478b79604eaaf934858ce3739dce1708/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/478b79604eaaf934858ce3739dce1708/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/69af1b7627f0e3570ff7ab5fa594facc/gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/69af1b7627f0e3570ff7ab5fa594facc/gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/6352da2278f4887fa4506d4f94107bca/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/6352da2278f4887fa4506d4f94107bca/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c2d4cd89f1ebfc3fe58e14097bcaea17/play-services-measurement-base-16.0.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c2d4cd89f1ebfc3fe58e14097bcaea17/play-services-measurement-base-16.0.3/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/478b79604eaaf934858ce3739dce1708/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:16:9-41
+	android:roundIcon
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:20:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:17:9-69
+activity#com.hatemchaabini.serviceapp.OffreetServiceValideretRefuserAdapterActivityDemande
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:21:9-127
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:21:19-115
+activity#com.hatemchaabini.serviceapp.FragmenOffreetServiceValideretRefuserDemande
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:22:9-110
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:22:19-107
+activity#com.hatemchaabini.serviceapp.OffreetServiceValideretRefuserAdapterActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:23:9-111
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:23:19-108
+activity#com.hatemchaabini.serviceapp.FragmenOffreetServiceValideretRefuser
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:24:9-103
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:24:19-100
+activity#com.hatemchaabini.serviceapp.FragmenProfile
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:25:9-80
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:25:19-77
+activity#com.hatemchaabini.serviceapp.AdapterCom
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:26:9-76
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:26:19-73
+service#com.hatemchaabini.serviceapp.FcmMessagingService
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:28:9-35:19
+	android:enabled
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:29:13-76
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:32:13-34:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:33:17-78
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:33:25-75
+activity#com.hatemchaabini.serviceapp.Chat.MessageActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:37:9-86
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:37:19-83
+activity#com.hatemchaabini.serviceapp.VideoTuto
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:38:9-75
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:38:19-72
+activity#com.hatemchaabini.serviceapp.Chat.MaineActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:39:9-84
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:39:19-81
+activity#com.hatemchaabini.serviceapp.DetailDemandeActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:40:9-87
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:40:19-84
+activity#com.hatemchaabini.serviceapp.MesDemandeServicesActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:41:9-92
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:41:19-89
+activity#com.hatemchaabini.serviceapp.SplashActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:42:9-48:20
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:42:19-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:46:27-74
+activity#com.hatemchaabini.serviceapp.DetailoffreActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:49:9-85
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:49:19-82
+activity#com.hatemchaabini.serviceapp.OffreServActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:50:9-83
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:50:19-80
+activity#com.hatemchaabini.serviceapp.DetailserviceActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:51:9-87
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:51:19-84
+activity#com.hatemchaabini.serviceapp.ServicesAdapterActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:52:9-89
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:52:19-86
+activity#com.hatemchaabini.serviceapp.ServicesFragmentActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:53:9-90
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:53:19-87
+activity#com.hatemchaabini.serviceapp.singup
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:54:9-72
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:54:19-69
+activity#com.hatemchaabini.serviceapp.MainActivity
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:55:9-78
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:55:19-75
+activity#com.hatemchaabini.serviceapp.signin
+ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:56:9-72
+	android:name
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml:56:19-69
+uses-sdk
+INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/43d10548910a2686de65fd51b2206c0d/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/43d10548910a2686de65fd51b2206c0d/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.4.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/2b89448b9d7fc2eb859f6268d46047b7/jetified-rxbinding-appcompat-v7-0.4.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.4.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/2b89448b9d7fc2eb859f6268d46047b7/jetified-rxbinding-appcompat-v7-0.4.0/AndroidManifest.xml:6:5-44
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/eabc70798f75b18d74787cd7023bca8c/jetified-library-2.1.4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/eabc70798f75b18d74787cd7023bca8c/jetified-library-2.1.4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.javiersantos:MaterialStyledDialogs:2.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/1b889648bd9e87dd3301fc02503ca967/jetified-MaterialStyledDialogs-2.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.javiersantos:MaterialStyledDialogs:2.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/1b889648bd9e87dd3301fc02503ca967/jetified-MaterialStyledDialogs-2.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dinukapj:MaterialSearchBar:0.7.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/cf43635a488b36e7aaa4859a791dc769/jetified-MaterialSearchBar-0.7.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dinukapj:MaterialSearchBar:0.7.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/cf43635a488b36e7aaa4859a791dc769/jetified-MaterialSearchBar-0.7.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/419ea00e087ae1e3c48f939f6626143f/jetified-core-0.9.0.2/AndroidManifest.xml:8:5-11:75
+MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/419ea00e087ae1e3c48f939f6626143f/jetified-core-0.9.0.2/AndroidManifest.xml:8:5-11:75
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/61de66c28f2cdb514cccfb933dd607eb/jetified-library-1.1.7/AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/61de66c28f2cdb514cccfb933dd607eb/jetified-library-1.1.7/AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/8b7353a4da394401f2770946eabec9bd/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/8b7353a4da394401f2770946eabec9bd/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/e88b13ae8ecbb63da81ec85463301b9c/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/e88b13ae8ecbb63da81ec85463301b9c/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/feb9a684472092d4e7bccd26ee916f6c/jetified-firebase-database-16.0.4/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/feb9a684472092d4e7bccd26ee916f6c/jetified-firebase-database-16.0.4/AndroidManifest.xml:18:5-20:41
+MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d6cf33a57c61ba252775ff8ae2d37fe4/circleimageview-3.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d6cf33a57c61ba252775ff8ae2d37fe4/circleimageview-3.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/48151eebb6fa866db8aa638f60cf7059/glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/48151eebb6fa866db8aa638f60cf7059/glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d7bd033bbfecfefcd37e6d7c2723914f/rxandroid-2.0.2/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d7bd033bbfecfefcd37e6d7c2723914f/rxandroid-2.0.2/AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton.rxbinding:rxbinding-support-v4:0.4.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ff5c0047b7dcb15da34783b19f64fd4b/jetified-rxbinding-support-v4-0.4.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding-support-v4:0.4.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ff5c0047b7dcb15da34783b19f64fd4b/jetified-rxbinding-support-v4-0.4.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/72e72f82618c640df994aa91b6c9718b/jetified-rxbinding-0.4.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/72e72f82618c640df994aa91b6c9718b/jetified-rxbinding-0.4.0/AndroidManifest.xml:6:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4a40a71f676c69cd4c32009cb5b0542d/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4a40a71f676c69cd4c32009cb5b0542d/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/19dcf849995c50e8bbd936f73c87cbc3/jetified-firebase-storage-16.0.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/19dcf849995c50e8bbd936f73c87cbc3/jetified-firebase-storage-16.0.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/908516facc2832c5de1bd9f8e4f02639/play-services-flags-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/908516facc2832c5de1bd9f8e4f02639/play-services-flags-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/46ba23e7a9cad42e717409643ee508d5/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/46ba23e7a9cad42e717409643ee508d5/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/1c9d5f62b8402bcffa9bd0e20b4c5eb1/firebase-core-16.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/1c9d5f62b8402bcffa9bd0e20b4c5eb1/firebase-core-16.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ff748d8e81b63e287a29cdbec94f698e/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ff748d8e81b63e287a29cdbec94f698e/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/695fc1736fb65cf6e73c320a963786d8/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/695fc1736fb65cf6e73c320a963786d8/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fb0b02561e40ff540ef172f1fbbe6b05/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fb0b02561e40ff540ef172f1fbbe6b05/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/3c929f0c885367d250e8fbf576aa3f21/firebase-database-collection-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/3c929f0c885367d250e8fbf576aa3f21/firebase-database-collection-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/907e5ea94504813ccdfa74810321c369/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/907e5ea94504813ccdfa74810321c369/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/cca8273c8affda44cc4ba1667c88c0a3/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/cca8273c8affda44cc4ba1667c88c0a3/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/20c1bb4c6e0f639a9ae8271a99ce3879/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/20c1bb4c6e0f639a9ae8271a99ce3879/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0fc20dd901acba4dd687a4c3a2f04800/jetified-play-services-basement-16.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0fc20dd901acba4dd687a4c3a2f04800/jetified-play-services-basement-16.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fc8e660555fcd619975fc3f54e7b6732/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fc8e660555fcd619975fc3f54e7b6732/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/81d834b1726d83edf002a7495855434a/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/81d834b1726d83edf002a7495855434a/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d9825d76f6bbee29e3578706a3ba71a2/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d9825d76f6bbee29e3578706a3ba71a2/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ef2b9acfed30db7d42005e1e08b46c79/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ef2b9acfed30db7d42005e1e08b46c79/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/903628750a551479d07974af9ddb1514/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/903628750a551479d07974af9ddb1514/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/506ff032f2e3a2422899c5a2a3d9de51/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/506ff032f2e3a2422899c5a2a3d9de51/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/6effe2cbf16174b668e3e1d0cfddf644/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/6effe2cbf16174b668e3e1d0cfddf644/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/b71106a2dbab772943f41fdb129a6c36/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/b71106a2dbab772943f41fdb129a6c36/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/f1c6c38deefe084ebb2f0f3b9ed4b2fe/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/f1c6c38deefe084ebb2f0f3b9ed4b2fe/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fc89f4a1c9db1f9f645452bfbb4cd681/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fc89f4a1c9db1f9f645452bfbb4cd681/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/1428b5f834224b054b3655b7bb9f4141/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/1428b5f834224b054b3655b7bb9f4141/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/a8c2bb309b0f0e205d5df49a5c8f0224/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/a8c2bb309b0f0e205d5df49a5c8f0224/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ea195e7a4deac63f8932aeb483676170/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ea195e7a4deac63f8932aeb483676170/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/33f3f4591626067cc73772904b9eb738/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/33f3f4591626067cc73772904b9eb738/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/3e16f019840cc70306750a8dc25d7f2e/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/3e16f019840cc70306750a8dc25d7f2e/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fa01b882334f7262ea8e3e7268311095/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/fa01b882334f7262ea8e3e7268311095/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0916f73c87a1ba2271fe392cf50cdbd5/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0916f73c87a1ba2271fe392cf50cdbd5/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/3c570a0a75f7bdf20ec22b30af040369/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/3c570a0a75f7bdf20ec22b30af040369/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/f4af7f1a3c26c4b61981ff2f9af835ae/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/f4af7f1a3c26c4b61981ff2f9af835ae/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/a1079c7fbe6a9a0a1066925b6507eb74/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/a1079c7fbe6a9a0a1066925b6507eb74/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/478b79604eaaf934858ce3739dce1708/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/478b79604eaaf934858ce3739dce1708/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/a5cc52281db0c619acb263f3ec9583e2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/a5cc52281db0c619acb263f3ec9583e2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/69af1b7627f0e3570ff7ab5fa594facc/gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/69af1b7627f0e3570ff7ab5fa594facc/gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9d181ea93f766b111b5938a44e6e4827/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9d181ea93f766b111b5938a44e6e4827/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9c865c57a8ab83eac8e7c02e9f838480/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9c865c57a8ab83eac8e7c02e9f838480/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/6352da2278f4887fa4506d4f94107bca/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/6352da2278f4887fa4506d4f94107bca/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d5c3ac55f54e7be18a5143c57b0a7ada/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/d5c3ac55f54e7be18a5143c57b0a7ada/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/197553ab9f2fbb988661865532230777/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/197553ab9f2fbb988661865532230777/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/b0258761e09ba69bc3c7bc9f6c71d3b2/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/b0258761e09ba69bc3c7bc9f6c71d3b2/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ff12cc281f87118c6dbeead31942afb5/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ff12cc281f87118c6dbeead31942afb5/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c08fbd2ff03eaf1eb73b66b76b15a082/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c08fbd2ff03eaf1eb73b66b76b15a082/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ede779bc2682400490f54d1fd5fcec7d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/ede779bc2682400490f54d1fd5fcec7d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/79c1d5c82fe746b1739cbdd05686da02/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/79c1d5c82fe746b1739cbdd05686da02/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/7eeeb2910d1096ef30c55533f294f81f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/7eeeb2910d1096ef30c55533f294f81f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/8a422b90bfe2308ee62c0eaef9ccdad3/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/8a422b90bfe2308ee62c0eaef9ccdad3/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/b9053f481f6d09d6b0325c41025a2cd9/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/b9053f481f6d09d6b0325c41025a2cd9/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex:rxandroid:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/5e4a119a81b9bbc8a0ed5bfb89e4b4ac/rxandroid-1.1.0/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/5e4a119a81b9bbc8a0ed5bfb89e4b4ac/rxandroid-1.1.0/AndroidManifest.xml:19:5-43
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c2d4cd89f1ebfc3fe58e14097bcaea17/play-services-measurement-base-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c2d4cd89f1ebfc3fe58e14097bcaea17/play-services-measurement-base-16.0.3/AndroidManifest.xml:5:5-44
+INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/419ea00e087ae1e3c48f939f6626143f/jetified-core-0.9.0.2/AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hatemchaabini/Documents/Login/ServiceApp/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4f409a65b7acb6e62b19ed5badaf85be/jetified-firebase-auth-16.0.5/AndroidManifest.xml:37:17-109
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/dd371503cc2a7cae54a9622649d29db0/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4a40a71f676c69cd4c32009cb5b0542d/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4a40a71f676c69cd4c32009cb5b0542d/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/4a40a71f676c69cd4c32009cb5b0542d/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/214ba3c558a10afbf473538d3afafb3f/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0d99c31b6e4ebbb7133dfd84383f181b/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/11ddcd1f1519ade38bea1a9111f2c622/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/9b4b2815ac12cd3eac14a82764994df6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/c1fc3978fd045bc80c606f21f8fb8ed3/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/494f994db88cf10f2a91939d51e90f40/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0fc20dd901acba4dd687a4c3a2f04800/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0fc20dd901acba4dd687a4c3a2f04800/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/hatemchaabini/.gradle/caches/transforms-2/files-2.1/0fc20dd901acba4dd687a4c3a2f04800/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58

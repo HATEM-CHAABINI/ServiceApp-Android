@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+
+        android:id="@+id/edt_lien"
+        android:layout_width="322dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="28dp"
+        android:hint="URL YouTube"
+        android:inputType="textUri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:met_baseColor="@android:color/black"
+        app:met_iconPadding="0dp"
+        app:met_primaryColor="@android:color/black"
+        app:met_textColorHint="#AFAFAF" />
+
+    <Spinner
+        android:id="@+id/metierv"
+        android:layout_width="335dp"
+        android:layout_height="41dp"
+
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_lien" />
+</androidx.constraintlayout.widget.ConstraintLayout>

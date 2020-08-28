@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ServiceApp</string>
+
+    <string name="sign_in">Se Connecter</string>
+    <string name="sign_up">Créer Compte</string>
+    <string name="password">Mot de passe</string>
+    <string name="username">Nom Utilisateur</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
